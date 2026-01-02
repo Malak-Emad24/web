@@ -1,6 +1,6 @@
 <?php
 session_start();
-
+hey
 $id = $_POST['id'];
 
 if (!isset($_SESSION['cart'])) {
@@ -14,3 +14,4 @@ if (isset($_SESSION['cart'][$id])) {
 }
 
 echo array_sum($_SESSION['cart']); // عدد المنتجات
+
